@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formi vo HTML</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+
+       <form>
+        <input type="text" placeholder="name" value="Sanja" />
+        <br />
+        <label>Surname: </label> <input type="text" />
+        <br />
+        <input type="password" placeholder="your password" />
+
+        <br />
+        <label for="email">Your email:</label>
+        <input type="email" id="e-mail" name=""/><br />
+        <br />
+        <input type="file" /><br />
+        <input type="date" /><br />
+        <input type="number" /><br />
+        
+        <label>Radio:</label> <input type="radio" />
+        <label>Checkbox:</label> <input type="checkbox" name="" />
+       </form>
+
+       <form method="get" action="">
+        <h2>Login Form</h2>
+        <label>Name:</label> <input type="text" /><br />
+        <label>Surname:</label> <input type="text" /><br />
+        <input type="email" id="e-mail" name=""/><br />
+        <input type="submit" name="" value="Submit" />
+        <!-- Kreiranje na kopche-->
+        <button type="submit">Submit</button>
+       </form><br />
+
+       <!--Primer 3-->
+
+       <form>
+        <h4>Prashanje broj 1</h4>
+        <label>A</label><input type="radio" name="prashanje" value="A" /><br />
+        <label>B</label><input type="radio" name="prashanje" value="B" /><br />
+        <label>C</label><input type="radio" name="prashanje" value="C" />
+       </form>
+       <br />
+       <br />
+
+       <!--Primer 4-->
+
+
+       <form>
+        <label>A</label><input type="checkbox" name="prashanje" value="A" /><br />
+        <label>B</label><input type="checkbox" name="prashanje" value="B" /><br />
+        <label>C</label><input type="checkbox" name="prashanje" value="C" /><br />
+        <p>Write your coment</p>
+        <textarea rows="10" cols="40"></textarea>
+
+        <!--Drop down selection-->
+        <select disabled>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+
+        <!--second example of the Drop down selection-->
+
+        <select size="2">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select><br />
+
+        <select>
+            <optgroup label="Cars">
+                <option>Audi</option>
+                <option>BMW</option>
+                <option>Mercedes</option>
+            </optgroup>
+            <optgroup label="Bikes">
+                <option>Honda</option>
+                <option>Yamaha</option>
+                <option>Suzuki</option>
+            </optgroup>
+        </select>
+       </form>
+
+
+       <form>
+        <fieldset>
+            <legend>Account Information</legend>
+            <label>Username:</label><input tupe="text" name="" /><br />
+            <label>Password:</label><input tupe="password" name="" />
+        </fieldset>
+
+        <fieldset>
+            <legend>User Information</legend>
+            <label>Username:</label><input tupe="text" name="" /><br />
+            <label>Password:</label><input tupe="password" name="" />
+        </fieldset>
+       </form>
+
+       <!-- <div> and <snap>-->
+
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.UW9m-IRyYZ1yUMJUSwbKsAHaE7?pid=ImgDet&rs=1"
+                 alt="random image"
+            />
+            <p>Ova e obichen paragraf</p>
+        </div>
+        
+        <!--Span za stilizacija na web nema sega razlika zaedno so CSS-->
+        <span>nekakov tekst</span>
+
+        <p>paragraf so "span" tag <span>span</span></p>
+    </body>
+</html>
